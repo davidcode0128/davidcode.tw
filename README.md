@@ -1,2 +1,2 @@
 # davidcode.tw
-[davidcode.netlify.app](Davidcode.tw)
+([Davidcode.tw](https://davidcode.netlify.app/))
