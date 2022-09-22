@@ -16,3 +16,7 @@ __unconfig_vite.config.js
 /src/i18n/i18n-*
 # Local Netlify folder
 .netlify
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
