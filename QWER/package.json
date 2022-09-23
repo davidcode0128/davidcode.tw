@@ -1,16 +1,16 @@
 {
-  "name": "@kwchang0831/qwer",
-  "author": "kwchang0831",
+  "name": "@Davidcode",
+  "author": "Davidcode",
   "version": "0.1.2",
   "description": "Convert markdwon and asset files for svelte-qwer internel use",
   "license": "MIT",
-  "homepage": "https://github.com/kwchang0831/svelte-qwer",
+  "homepage": "https://github.com/davidcode0128/davidcode.tw",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kwchang0831/svelte-qwer.git"
+    "url": "https://github.com/davidcode0128/davidcode.tw.git"
   },
   "bugs": {
-    "url": "https://github.com/kwchang0831/svelte-qwer/issues"
+    "url": "https://github.com/davidcode0128/davidcode.tw/issues"
   },
   "packageManager": "pnpm@7.9.3",
   "engines": {
