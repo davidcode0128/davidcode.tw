@@ -5,7 +5,7 @@ on:
 
 jobs:
   metrics:
-    if: github.repository == 'kwchang0831/svelte-QWER'
+    if: github.repository == 'davidcode0128/davidcode.tw'
     runs-on: ubuntu-latest
     steps:
       - name: 🍕 PageSpeed Report
@@ -21,4 +21,4 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://svelte-qwer.vercel.app/
+          plugin_pagespeed_url: https://https://davidcode.netlify.app//
