@@ -48,8 +48,6 @@ export const headConfig: Site.Head = {
         ]
       : [
           // For Production Enviroment
-          '<link rel="preconnect" href="https://davidcode.netlify.app" />',
-          '<script defer type="text/partytown" data-domain="davidcode.netlify.app" src="https://plausible.io/js/plausible.js"></script>',
         ],
 };
 
@@ -106,7 +104,7 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
 ];
 
 export const mobilenavConfig: DD.Nav = {
-  orientation: 1,
+  orientation: 2,
   links: [
     {
       name: '認識我',
