@@ -13,7 +13,7 @@ import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
   url: 'https://davidcode.netlify.app/',
-  title: '大維在打code',
+  title: '大衛學打code',
   subtitle: '👾 Davidcode - Built using QWER with ❤',
   description: '👾 Davidcode - Built using QWER with ❤',
   lang: 'en',
@@ -95,7 +95,7 @@ export const giscusConfig: Giscus.Config = {
 
 export const navConfig: (DD.Nav | DD.Link)[] = [
   {
-    name: 'About',
+    name: '認識我',
     url: '/about',
   },
 //  {
@@ -106,10 +106,10 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
 ];
 
 export const mobilenavConfig: DD.Nav = {
-  orientation: 2,
+  orientation: 1,
   links: [
     {
-      name: 'About',
+      name: '認識我',
       url: '/about',
     },
 //  {
