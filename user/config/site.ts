@@ -24,7 +24,7 @@ export const siteConfig: Site.Config = {
     name: 'Davidcode',
     status: '👾',
     statusTip:
-      '<a href="https://github.com/davidcode0128/davidcode.tw" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >CODING</a> is Awesome !',
+      '<a href="https://github.com/davidcode0128/davidcode.tw" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Coding</a> is so interesting!',
     avatar: Avatar,
     avatar_128: Avatar_128,
     avatar_48_png: Avatar_48_PNG,
