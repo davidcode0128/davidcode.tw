@@ -13,9 +13,9 @@ import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
   url: 'https://davidcode.netlify.app/',
-  title: 'Davidcode',
-  subtitle: '👾 Davidcode - Built using Svelte with ❤',
-  description: '👾 Davidcode - Built using Svelte with ❤',
+  title: '大維在打code',
+  subtitle: '👾 Davidcode - Built using QWER with ❤',
+  description: '👾 Davidcode - Built using QWER with ❤',
   lang: 'en',
   timeZone: 'Asia/Taipei',
   since: 2022,
@@ -34,7 +34,7 @@ export const siteConfig: Site.Config = {
     website: 'https://davidcode.netlify.app/',
     github: 'https://github.com/davidcode0128',
     email: 'ckorsock1@gmail.com',
-    bio: `To live a creative life,<br/>we must lose our fear of being wrong.`,
+    bio: `Learning from 0 to 1.<br/>Start from nowhere to somewhere.`,
   },
 };
 
