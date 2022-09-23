@@ -12,35 +12,35 @@ import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
-  url: 'https://svelte-qwer.vercel.app',
-  title: 'QWER',
-  subtitle: '🚀 QWER - Built using Svelte with ❤',
-  description: '🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤',
+  url: 'https://davidcode.netlify.app/',
+  title: 'Davidcode',
+  subtitle: '👾 Davidcode - Built using Svelte with ❤',
+  description: '👾 Davidcode - Built using Svelte with ❤',
   lang: 'en',
   timeZone: 'Asia/Taipei',
   since: 2022,
   cover: SiteCover,
   author: {
-    name: 'John Doe',
-    status: '🚀',
+    name: 'Davidcode',
+    status: '👾',
     statusTip:
-      '<a href="https://github.com/kwchang0831/svelte-QWER" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >QWER</a> is Awesome !',
+      '<a href="https://github.com/davidcode0128/davidcode.tw" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >CODING</a> is Awesome !',
     avatar: Avatar,
     avatar_128: Avatar_128,
     avatar_48_png: Avatar_48_PNG,
     avatar_96_png: Avatar_96_PNG,
     avatar_192_png: Avatar_192_PNG,
     avatar_512_png: Avatar_512_PNG,
-    website: 'https://github.com/kwchang0831/svelte-QWER',
-    github: 'https://github.com/kwchang0831',
-    email: 'contact@kwchang0831.dev',
-    bio: `Peace begins <br/> With a smile`,
+    website: 'https://davidcode.netlify.app/',
+    github: 'https://github.com/davidcode0128',
+    email: 'ckorsock1@gmail.com',
+    bio: `To live a creative life,<br/>we must lose our fear of being wrong.`,
   },
 };
 
 export const headConfig: Site.Head = {
   // Used for IndieWeb
-  me: ['https://github.com/kwchang0831'],
+  me: ['https://github.com/davidcode0128'],
   custom: ({ dev }) =>
     dev
       ? [
@@ -48,8 +48,8 @@ export const headConfig: Site.Head = {
         ]
       : [
           // For Production Enviroment
-          '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
-          '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
+          '<link rel="preconnect" href="https://davidcode.netlify.app" />',
+          '<script defer type="text/partytown" data-domain="davidcode.netlify.app" src="https://plausible.io/js/plausible.js"></script>',
         ],
 };
 
@@ -77,13 +77,13 @@ export const dateConfig: Site.DateConfig = {
 };
 
 export const giscusConfig: Giscus.Config = {
-  // src: 'https://giscus.kwchang0831.dev/client.js',
+  // src: 'https://giscus.app/client.js',
   enable: true,
   id: 'giscus-comment',
-  repo: 'kwchang0831/svelte-QWER',
-  repoId: 'R_kgDOHiLP-g',
-  category: 'Comments',
-  categoryId: 'DIC_kwDOHiLP-s4CQgDm',
+  repo: 'davidcode0128/davidcode.tw',
+  repoId: 'R_kgDOIC3YZA',
+  category: 'BlogComments',
+  categoryId: 'DIC_kwDOIC3YZM4CRllW',
   mapping: 'pathname',
   reactionsEnabled: '1',
   emitMetadata: '0',
@@ -98,16 +98,11 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     name: 'About',
     url: '/about',
   },
-  {
-    name: 'See Docs 📄',
-    url: 'https://docs-svelte-qwer.vercel.app/',
-    rel: 'external',
-  },
-  {
-    name: 'Get QWER 🚀',
-    url: 'https://github.com/kwchang0831/svelte-QWER',
-    rel: 'external',
-  },
+//  {
+//    name: 'To external site 📄',
+//    url: 'https://external.com.tw/',
+//    rel: 'external',
+//  },
 ];
 
 export const mobilenavConfig: DD.Nav = {
@@ -117,15 +112,10 @@ export const mobilenavConfig: DD.Nav = {
       name: 'About',
       url: '/about',
     },
-    {
-      name: 'See Docs 📄',
-      url: 'https://docs-svelte-qwer.vercel.app/',
-      rel: 'external',
-    },
-    {
-      name: 'Get QWER 🚀',
-      url: 'https://github.com/kwchang0831/svelte-QWER',
-      rel: 'external',
-    },
+//  {
+//    name: 'To external site 📄',
+//    url: 'https://external.com.tw/',
+//    rel: 'external',
+//  },
   ],
 };
