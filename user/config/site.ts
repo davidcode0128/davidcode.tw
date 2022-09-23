@@ -80,7 +80,7 @@ export const giscusConfig: Giscus.Config = {
   id: 'giscus-comment',
   repo: 'davidcode0128/davidcode.tw',
   repoId: 'R_kgDOIC3YZA',
-  category: 'BlogComments',
+  category: 'BlogComment',
   categoryId: 'DIC_kwDOIC3YZM4CRllW',
   mapping: 'pathname',
   reactionsEnabled: '1',
