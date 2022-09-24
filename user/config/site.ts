@@ -13,7 +13,7 @@ import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
   url: 'https://davidcode.netlify.app/',
-  title: '大衛學打code',
+  title: '大衛打code',
   subtitle: '👾 Davidcode - Built using QWER with ❤',
   description: '👾 Davidcode - Built using QWER with ❤',
   lang: 'en',
