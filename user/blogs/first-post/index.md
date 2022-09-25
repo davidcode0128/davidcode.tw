@@ -77,4 +77,4 @@ tags:
 將對應的ID填入`_config.yml`就大功告成了。
 
 > 别忘了在GitHub個人設置裡面的Integrations中安裝Giscus並授權
-{: .prompt-warning }
+
