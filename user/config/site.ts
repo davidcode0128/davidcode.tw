@@ -9,7 +9,7 @@ import Avatar_96_PNG from '$assets/avatar.png?w=96&h=96&imagetools';
 import Avatar_192_PNG from '$assets/avatar.png?w=192&h=192&imagetools';
 import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 
-import SiteCover from '$assets/qwer.webp';
+import SiteCover from '$assets/banner.png';
 
 export const siteConfig: Site.Config = {
   url: 'https://davidcode.netlify.app/',
