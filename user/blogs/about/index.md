@@ -1,14 +1,15 @@
 ---
-title: About QWER
-description: Information about QWER - Simply Awesome Blog Starter. Built using SvelteKit and Love.
-published: '2022-08-20T00:00:00.000+08:00'
-updated: '2022-09-16T12:00:00.000+08:00'
+title: About Me
+description: 
+published: '2022-09-20T00:00:00.000+08:00'
+updated: '2022-09-25T12:00:00.000+08:00'
 cover: /Davidcode.jpg
 options:
   - unlisted
 ---
 <script lang="ts">  
   import Profile from '$custom/profile.svelte'
+  import Github from '$custom/github.svelte'
 </script>
 
 <Profile subname="大衛打code" bio="{`👾👾👾`}"/>
