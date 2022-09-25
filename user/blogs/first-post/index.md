@@ -7,7 +7,8 @@ updated: '2022-09-25T12:00:00.000+08:00'
 cover: ./cover.jpg
 coverStyle: 'NONE'
 tags:
-  - ['Hello World', QWER]
+  - test
+  - giscus
 ---
 
 ```yaml
