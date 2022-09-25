@@ -7,6 +7,11 @@ cover: /qwer.webp
 options:
   - unlisted
 ---
+<script lang="ts">  
+  import Profile from '$custom/profile.svelte'
+</script>
+
+<Profile subname="大衛打code" bio="{`👾👾👾`}"/>
 
 ## 🎉 QWER
 
