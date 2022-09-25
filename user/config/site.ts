@@ -44,10 +44,10 @@ export const headConfig: Site.Head = {
   custom: ({ dev }) =>
     dev
       ? [
-          // For Development Enviroment
+          // For Development Environment
         ]
       : [
-          // For Production Enviroment
+          // For Production Environment
         '<link rel="preconnect" href="https://plausible.io/davidcode.netlify.app" />',
         '<script defer type="text/partytown" data-domain="davidcode.netlify.app" src="https://plausible.io/js/plausible.js"></script>',
         ],
