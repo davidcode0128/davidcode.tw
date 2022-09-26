@@ -16,7 +16,7 @@ export const siteConfig: Site.Config = {
   title: '大衛打code',
   subtitle: '👾 Davidcode - Built using QWER with ❤',
   description: '👾 Davidcode - Built using QWER with ❤',
-  lang: 'en',
+  lang: 'zh',
   timeZone: 'Asia/Taipei',
   since: 2022,
   cover: SiteCover,
