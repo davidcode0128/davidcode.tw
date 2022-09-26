@@ -33,6 +33,9 @@ const config = {
     __VERSION_MAIN__: mainPkg,
     __VERSION_QWER__: qwerPkg,
   },
+  ssr: {
+    noExternal: ['three', 'troika-three-text'],
+  },
   plugins: [
     Unocss({
       extractors: [extractorSvelte],
