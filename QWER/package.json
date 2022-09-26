@@ -1,7 +1,7 @@
 {
   "name": "@Davidcode",
   "author": "Davidcode",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Convert markdwon and asset files for svelte-qwer internel use",
   "license": "MIT",
   "homepage": "https://github.com/davidcode0128/davidcode.tw",
