@@ -12,7 +12,7 @@ import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 import SiteCover from '$assets/banner.png';
 
 export const siteConfig: Site.Config = {
-  url: 'https://davidcode.netlify.app/','https://davidcode.vercel.app/',
+  url: 'https://davidcode.netlify.app/',
   title: '大衛打code',
   subtitle: '👾 Davidcode - Built using QWER with ❤',
   description: '👾 Davidcode - Built using QWER with ❤',
@@ -31,7 +31,7 @@ export const siteConfig: Site.Config = {
     avatar_96_png: Avatar_96_PNG,
     avatar_192_png: Avatar_192_PNG,
     avatar_512_png: Avatar_512_PNG,
-    website: 'https://davidcode.netlify.app/','https://davidcode.vercel.app/',
+    website: 'https://davidcode.netlify.app/',
     github: 'https://github.com/davidcode0128',
     email: 'ckorsock1@gmail.com',
     bio: `Learning from 0 to 1.<br/>Start from nowhere to somewhere.`,
