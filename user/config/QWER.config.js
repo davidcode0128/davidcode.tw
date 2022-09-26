@@ -1,11 +1,11 @@
 export const UserConfig = {
   DefaultDesktopShowTagFilter: false,
   DefaultCoverStyle: 'IN',
-  DefaultTagName: 'tags',
-  DefaultPostLanguage: 'English',
+  DefaultTagName: '標籤',
+  DefaultPostLanguage: '中文',
   PostLanguageTagName: 'Language',
-  SeriesTagName: 'Series',
-  YearTagName: 'Year',
+  SeriesTagName: '系列',
+  YearTagName: '年份',
 
   BannerImage: {
     width: 768,
