@@ -42,7 +42,7 @@ options:
 #### 勞贖
 
 養了兩隻可愛的八齒鼠 `藍寶` 以及`寶咖咖` ，八齒鼠又號稱小龍貓，是非常聰明可愛的齧齒動物。
-這也是為什麼[網站icon](https://davidcode.netlify.app/favicon.png)是勞贖的原因。若是有興趣想了解更多歡迎詢問我或是造訪[Degutopia](https://www.degutopia.co.uk/)
+這也是為什麼網站icon是![網站icon](https://davidcode.netlify.app/favicon.ico)的原因。若是有興趣想了解更多歡迎詢問我或是造訪[Degutopia](https://www.degutopia.co.uk/)
 
 #### 植物
 
