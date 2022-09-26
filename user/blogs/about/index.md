@@ -2,102 +2,96 @@
 title: About Me
 description: 
 published: '2022-09-20T00:00:00.000+08:00'
-updated: '2022-09-25T12:00:00.000+08:00'
-cover: /Davidcode.jpg
+updated: '2022-09-26T15:12:00.000+08:00'
+cover: Davidcode.jpg
 options:
   - unlisted
 ---
-<script lang="ts">  
-  import Profile from '$custom/profile.svelte'
-  import Github from '$custom/github.svelte'
-</script>
 
-<Profile subname="大衛打code" bio="{`👾👾👾`}"/>
+# 簡介
 
-## 🎉 QWER
+因為我不太會自我介紹，所以把我想到的事情記錄在這裡，若以後有需要自我介紹，我就可以把這個網站丟給他，希望看完後可以或多或少了解我是怎樣的人。
 
-[QWER](https://github.com/kwchang0831/svelte-QWER) is a blog starter and static site generator, built with [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/).
+## 我的個性
 
-<ImgZoom src="/preview.webp" alt="QWER Preview" />
++   個性沉穩內斂，因為會擔心自己講的事情對方沒有興趣，或是找不到話題而尷尬，所以對於新認識的人會比較慢熟。
++   樂於幫助別人：可以分享自己的經驗、或是提供自己的建議、改善流程、未來希望能夠用程式來幫助自己或別人解決問題。
++   喜歡研究本質，認為比起學會如何使用各種工具，搞懂工具背後的流程、理念跟原理會更有收穫。
++   不喜歡浪費食物，只要是能吃的都會盡量吃完( 除了絲瓜 )，除非食物本身不新鮮、壞掉、燒焦。
++   在日常生活上不拘小節，但會盡量把本分做好
+    +   廁所只有馬桶的話坐著上廁所比較不會亂噴
+    +   保持公共空間的整潔
+    +   沖馬桶會蓋馬桶蓋
 
-<ImgZoom src="/mobile-preview.webp" alt="QWER Mobile Preview" />
+## 地雷
 
-## ✨ Features
++   在公共場所抽菸的人
++   非黑即白的言論，或是急忙否定別人，不願意聽對方的話
++   自認為好笑亂開別人玩笑，不懂得尊重別人的人。
 
-- ⚡ Super fast site performance. Near **Perfect** [PageSpeed](https://pagespeed.web.dev/) score.
+## 喜好
 
-- 🤗 SEO ready with meta, [Open Graph](https://ogp.me/), [Schema](https://schema.org/), [JSON-LD](https://json-ld.org/), [microformats2](https://indieweb.org/microformats2).
+#### 旅行
 
-- 🔎 On-site Search.
+國外只去過日本 ( 一天 ) 跟兩次泰國。 目前最喜歡泰國，未來目標想去土耳其、摩洛哥等國家。
 
-- 📱 Mobile-First / Responsive design.
+#### 料理
 
-- ✍️ Write post with [Markdown syntax](https://www.markdownguide.org/basic-syntax/).
+喜歡自己動手下廚。目前做的比較特別的料理有千層麵、千層蛋糕、西班牙海鮮燉飯、漢堡排、水餃等
 
-- 🧮 🧪 Wirte Math and Chemical formulas with [TeX Syntax](https://www.math.brown.edu/johsilve/ReferenceCards/TeXRefCard.v1.5.pdf) via [Katex](https://katex.org/) & [mhchem](https://mhchem.github.io/MathJax-mhchem/).
+#### 勞贖
 
-- 📁 Folder-based organization for creating posts.
+養了兩隻可愛的八齒鼠 `藍寶` 以及`寶咖咖` ，八齒鼠又號稱小龍貓，是非常聰明可愛的齧齒動物。
+這也是為什麼[網站icon](https://davidcode.netlify.app/favicon.png)是勞贖的原因。若是有興趣想了解更多歡迎詢問我或是造訪[Degutopia](https://www.degutopia.co.uk/)
 
-- 🏷️ Multi-Tags filtering.
+#### 植物
 
-- 📄 Auto-Generate Table of Content for posts.
+一個不小心就掉入了種植物的坑，喜歡看起來有趣又好看的植物。目前住的地方種了：鹿角蕨、蔓綠絨、龍舌蘭、水竽、彩葉芋、南非龜甲龍、藍葉山烏龜、沙漠蘇木、沙漠玫瑰、斑葉琉桑、魚骨劍、虎尾蘭、麻葉花燭、飄帶火鶴、熊童子。
 
-- 📦 Out-of-the-box support for [Atom feed](https://validator.w3.org/feed/docs/atom.html), Sitemap, [PWA](https://web.dev/progressive-web-apps/), [JSON Feed](https://www.jsonfeed.org/).
+>斑葉琉桑很會噴種子，如果有興趣可以免費分享給植友。
 
-- 🖼️ Automatic image optimization via [vite-imagetools](https://github.com/JonasKruckenberg/imagetools).
+#### 漫畫/卡通
 
-- ⚙️ Support embedding Svelte components and Javascript with Markdown.
+閒暇時會看看日、韓漫畫舒壓。希望有生之年能看到海賊王跟獵人的結局。最喜歡的卡通是Rick and Morty
 
-- 💬 Supports [Giscus](https://github.com/giscus/giscus) - a comments system powerd by Github Discussions.
+#### 遊戲
 
-- 💄 Utilizes [UnoCSS](https://github.com/unocss/unocss) - the instant on-demand atomic CSS engine.
+現在比較少在玩遊戲，但喜歡看youtuber介紹有趣的單機遊戲故事背景。
 
-- 🌐 i18n via [typesafe-i18n](https://github.com/ivanhofer/typesafe-i18n).
+#### 咖啡
 
-- 🚀 Deploy the blog **Free** on [Vercel](https://vercel.com/) or [Netlify](https://Netlify.com/).
+每天早上起床一定要來一杯黑咖啡。覺得最好喝的拿鐵是桃園機場的夢咖啡，有機會出國的話強力推薦一定要喝喝看。
+
+## 目標
+
+> 想當一個對其他人有幫助的人。
+
++ 很喜歡網路世界開源開放的理念，在學習程式的路上透過免費網路資源就可以學習到許多技術以及知識。希望有朝一日自己也能為開源的世界做出一點小小貢獻。
++ 短期目標：把 Java 進階程式課程學好，了解 `Spring Boot` 的原理及實作，上CS61B的課程。
+
+## 一些之前做過 / 正在做的事
+
+### [機車環島](https://prezi.com/sms9q7vji96o/?preview=1)
+
+曾經跟高中同學一起完成一次7天的機車環島之旅
 
 
-## 📚 Learn More
 
-Please read more at our [Documentation](https://docs-svelte-qwer.vercel.app/).
+## 技術/寫程式相關的事
 
-## 👷 Current State
+### 472小時
 
-[QWER](https://github.com/kwchang0831/svelte-QWER) is at its' very early stage. Kindly expect frequent breaking changes.
+從 2022-04 ~ 2022-07 參加 台北市職能發展學院舉辦的全日制程式設計職能培育課程
+時數共472小時 學習內容如下：
++ HTML、CSS、JavaScript 基礎
++ Java 基礎、Java OOP 物件導向
++ Java Web MVC 、JSP、Servlet
++ Apache Derby 資料庫、SQL
++ Java JDBC
 
-Just copy and paste your `user` folder to the latest release.
+### Backend / 其他
 
-Watch out for the CHANGELOG to see if yor are required to migrate `user/config` or other places.
+### [Todo List](https://github.com/davidcode0128/SpringBootTodoList)
 
-## ❓ Issues / Problems / Questions
-
-Please take advantage of our [Github's Q&A Discussion board](https://github.com/kwchang0831/svelte-QWER/discussions/categories/q-a).
-
-## 😊 Are you using QWER?
-
-Please consider adding `svelte-qwer` topic to your repository.
-
-To see who else are using QWER, please check [Github-Topics: svelte-qwer](https://github.com/topics/svelte-qwer).
-
-## 🎉 Support
-
-<div class="flex" style="display:inline-block; font-size: 24px; --un-bg-opacity: 1; background-color: rgba(255, 221, 0); border-radius: 0.5rem; padding: 12px 18px; border: 2px solid;">
-<a class="flex"  href="https://www.buymeacoffee.com/kwchang0831" style="color: black;" >
-<span>🥓</span>
-<span>Buy me a Bacon</span>
-</a>
-</div>
-
-## 📝 License
-
-[MIT](https://github.com/kwchang0831/svelte-QWER/blob/main/LICENSE)
-
-## 🙏 Credits
-
-- Cover Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/s/photos/note?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-- Avatar Illustration by <a href="https://icons8.com/illustrations/author/GrbQqWBEhaDS">Liam Moore</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
-
-## 👍 END
-
-Thanks so much for interesting in [QWER](https://github.com/kwchang0831/svelte-QWER). Please try it out and let me know what you think 😊.
+在網路上自學 `Spring Boot` 時所做出來的第一個專案。
+雖然很普通很常見，但對於程式初學者的我來說是一個很好的練習。
