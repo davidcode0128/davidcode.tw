@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://svelte-qwer.vercel.app"
+          "value": "https://davidcode.vercel.app"
         },
         {
           "key": "X-Frame-Options",
