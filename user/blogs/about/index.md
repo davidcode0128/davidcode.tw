@@ -2,7 +2,7 @@
 title: About Me
 description: 
 published: '2022-09-20T00:00:00.000+08:00'
-updated: '2022-09-28T14:51:00.000+08:00'
+updated: '2022-09-29T10:26:00.000+08:00'
 cover: ./Davidcode.jpg
 options:
   - unlisted
@@ -34,11 +34,11 @@ options:
 
 #### 旅行
 
-國外只去過日本 ( 一天 ) 跟兩次泰國。目前最喜歡泰國，有朝一日想去土耳其、摩洛哥等國家。
+國外只去過日本迪士尼 ( 一天 ) 跟兩次泰國。目前最喜歡泰國，有朝一日想去土耳其、摩洛哥等國家。
 
 #### 料理
 
-喜歡自己動手下廚。目前做的比較特別的料理有千層麵、千層蛋糕、西班牙海鮮燉飯、漢堡排、水餃等
+喜歡自己動手下廚。目前做過比較特別的料理有千層麵、千層蛋糕、西班牙海鮮燉飯、漢堡排、水餃等
 
 #### 勞贖
 
@@ -80,7 +80,7 @@ options:
 
 來瞧瞧我[在做什麼](https://app.clockify.me/shared/63328d5303b3db6bcf4911b3)吧！
 
-## 技術/寫程式相關的事
+# 技術/寫程式相關的事
 
 ### 472 小時
 
@@ -92,9 +92,13 @@ options:
 + Apache Derby 資料庫、SQL
 + Java JDBC
 
-### Backend / 其他
+## Backend / 其他
 
-### [Todo List](https://github.com/davidcode0128/SpringBootTodoList)
+### Todo List
 
-在網路上自學 `Spring Boot` 時所做出來的第一個專案。
+在網路上自學 `Spring Boot` 時所做出來的[第一個專案](https://github.com/davidcode0128/SpringBootTodoList)。
 雖然很普通很常見，但對於程式初學者的我來說是一個很好的練習。
+
+### RESTful Todo List
+
+嘗試將[第一個專案](https://github.com/davidcode0128/SpringBootTodoList)改成 [RESTful API 的版本](https://github.com/davidcode0128/RESTfulTodoList)，使用 Swagger UI 及 Postman Agent 做 API 測試，JUnit 5 、 Mockito 及 MockMvc 做整合測試。
