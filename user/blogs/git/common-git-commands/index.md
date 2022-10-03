@@ -10,7 +10,7 @@ published: '2022-10-03T15:11:00.000+08:00'
 
 updated: '2022-10-03T15:11:00.000+08:00'
 
-cover: ./cover.Jpg
+cover: ./cover.jpg
 
 coverStyle: 'TOP'
 
@@ -90,6 +90,6 @@ tags:
 >你早晚都要學 Git 的，為何不現在開始就學呢？
 ## 參考資料
 
-[設定 Github SSH 金鑰 feat. Github SSH、HTTPS 的差異 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10205988)
-[連猴子都能懂的Git入門指南 | 貝格樂（Backlog）](https://backlog.com/git-tutorial/tw/)
-[Git 教學 - Git 書 - 為你自己學 Git | 高見龍 (gitbook.tw)](https://gitbook.tw/)
+[設定 Github SSH 金鑰 feat. Github SSH、HTTPS 的差異 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10205988)<br>
+[連猴子都能懂的Git入門指南 | 貝格樂（Backlog）](https://backlog.com/git-tutorial/tw/)<br>
+[Git 教學 - Git 書 - 為你自己學 Git | 高見龍 (gitbook.tw)](https://gitbook.tw/)<br>
