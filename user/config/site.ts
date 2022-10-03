@@ -14,15 +14,15 @@ import SiteCover from '$assets/banner.png';
 export const siteConfig: Site.Config = {
   url: 'https://davidcode.netlify.app/',
   title: '大衛打code',
-  subtitle: '👾 Davidcode - Built using QWER with ❤',
-  description: '👾 Davidcode - Built using QWER with ❤',
+  subtitle: '🐭 Davidcode - Built using QWER with ❤',
+  description: '🐭 Davidcode - Built using QWER with ❤',
   lang: 'zh',
   timeZone: 'Asia/Taipei',
   since: 2022,
   cover: SiteCover,
   author: {
     name: 'Davidcode',
-    status: '👾',
+    status: '🐭',
     statusTip:
       '<a href="https://github.com/davidcode0128/davidcode.tw" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Coding</a> is so interesting!',
     avatar: Avatar,

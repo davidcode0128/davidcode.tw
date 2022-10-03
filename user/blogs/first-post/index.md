@@ -12,6 +12,8 @@ updated: '2022-09-29T10:26:00.000+08:00'
 
 cover: ./journey.jpg
 
+coverStyle: 'TOP'
+
 coverCaption: Photo by <a href=" https://unsplash.com/ja/@mxhpics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maxime Horlaville</a> on <a href=" https://unsplash.com/photos/CSWllKT9wPw">Unsplash</a>
 
 tags:
