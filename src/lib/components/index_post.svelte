@@ -55,7 +55,12 @@
       <div class="series flex items-stretch gap-0 z10">
         <div
           class="series-tag py2 cursor-pointer"
-          on:click={() => handleClick({ name: data.series_tag ?? '', category: UserConfig.SeriesTagName })}>
+          on:click={() => handleClick({ name: data.series_tag ?? '', category: UserConfig.SeriesTagName })}
+          on:keydown={(e) => {
+            if (e.key === 'Enter') {
+              handleClick({ name: data.series_tag ?? '', category: UserConfig.SeriesTagName });
+            }
+          }}>
           <div class="pl-4 pr-3 text-sm font-bold"># {data.series_tag} {UserConfig.SeriesTagName}</div>
         </div>
         <div class="series-title flex-1 py-2 md:rounded-tr-2xl">
@@ -72,7 +77,6 @@
         <ImgBanner
           loading={index < numberPostsEager ? 'eager' : 'lazy'}
           decoding={index < numberPostsEager ? 'auto' : 'async'}
-          preload={index < numberPostsEager}
           src={data.cover}
           imgClass="z1 blur-sm op80 absolute object-cover w-full h-full transition transform duration-300 ease-in-out group-hover:(scale-110 blur-none)" />
         <div class="coverStyle-IN z2 px8 pt4 pb6 flex flex-col gap2 bg-white/[0.25] dark:bg-black/[0.25]">
